@@ -12,7 +12,7 @@ In two simple steps I’ll show you how to apply that **hanging-indent** to refe
 
 This works with reference lists formatted as paragraphs as well as lists \[[ordered][1], [unordered][2], or [definition][3]\] in HTML or [Markdown][][^1].
 
-##Step 1: How to set it up
+## Step 1: How to set it up
 
 Somewhere in your blog’s entry window[^3] —or alternatively, in your blog’s CSS file— paste the following CSS code[^4]\:
 
@@ -24,7 +24,7 @@ Somewhere in your blog’s entry window[^3] —or alternatively, in your blog’
 
 That’s it! Well, almost.
 
-##Step 2: How to use
+## Step 2: How to use
 
 Wrap your references inside a `div` element and add the `apa-ref`[^2] value to its class attribute. Use the following guide as an example:
 
@@ -36,14 +36,14 @@ Wrap your references inside a `div` element and add the `apa-ref`[^2] value to i
 …if using Markdown, just add the `markdown="1"` attribute inside the `div` element, like so:
 
     <div class="apa-ref" markdown="1">
-    ##References
+    ## References
     Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. *Health Psychology, 24*(1), 225-229. doi:10.1037/0278-6133.24.2.225
     </div>
 
 That’s all! Either of the two previous formats will output the following:
 
 <div class="ref-apa" markdown="1">
-##References
+## References
 Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, and the survival times of terminally ill patients. *Health Psychology, 24*(1), 225-229. doi:10.1037/0278-6133.24.2.225
 </div>
   
@@ -51,14 +51,14 @@ Herbst-Damn, K. L., & Kulik, J. A. (2005). Volunteer support, marital status, an
 
 Simple enough, right? Good. If you’d like to know how this works with `ol`, `ul`, or `dl` lists, keep on reading, otherwise you’re good to go!
 
-##Other Examples
+## Other Examples
 If you wrote your references as a list \[[ordered][1], [unordered][2], or [definition][3]\] that’s ok, this will work too. You follow the same rule as before and wrap your list in a `div`. Here are a few guides to make it easier to see:
 
 <h3 id="ordered_list_reference_sample">Ordered list reference sample</h3>
 Use this guide (if you’re using Markdown):
 
     <div class="ref-apa" markdown="1">
-    ##References
+    ## References
     1.  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
     2.  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
     3.  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
@@ -78,7 +78,7 @@ or this (if using HTML):
 and you’ll get this:
 
 <div class="ref-apa" markdown="1">
-##References
+## References
 1.  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
 2.  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
 3.  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
@@ -110,7 +110,7 @@ or this (if using HTML):
 and you’ll get this:
 
 <div class="ref-apa" markdown="1">
-##References
+## References
 *  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
 *  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
 *  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
@@ -123,7 +123,7 @@ and you’ll get this:
 Use this guide (if you’re using Markdown):
 
     <div class="ref-apa" markdown="1">
-    References
+    ## References
     :  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
     :  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
     :  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
@@ -143,7 +143,7 @@ or this (if using HTML):
 and you’ll get this:
 
 <div class="ref-apa" markdown="1">
-References
+## References
 :  Angeli, E., Wagner, J., Lawrick, E., Moore, K., Anderson, M., Soderlund, L., & Brizee, A. (2010, May 5). _General format_. Retrieved from http://owl.english.purdue.edu/owl/resource/560/01/
 :  Wegener, D. T., & Petty, R. E. (1994). Mood management across affective states: The hedonic contingency hypothesis. _Journal of Personality & Social Psychology, 66_, 1034-1048.
 :  Wegener, D. T., Kerr, N. L., Fleming, M. A., & Petty, R. E. (2000). Flexible corrections of juror judgments: Implications for jury instructions. _Psychology, Public Policy, & Law, 6_, 629-654.
@@ -151,7 +151,7 @@ References
 
 ---
 
-###Geek tips
+### Geek tips
 If you’re formatting your lists in HTML, you don’t need to wrap your reference list in a `div`, you can simply apply the class directly to the enclosing element [`ol`,`ul`, or `dl`].
 
 So instead of something looking like this:
